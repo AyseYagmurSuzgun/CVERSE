@@ -52,7 +52,7 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/34fe1463-7963-4ed9-bfbc-4f7dbadb3361" width="270"/>
-  <img width="1919" height="1030" alt="Ekran görüntüsü 2026-05-22 223056" src="https://github.com/user-attachments/assets/774bf584-c142-4135-8213-3aa123faca9e" />
+  <img src="https://github.com/user-attachments/assets/774bf584-c142-4135-8213-3aa123faca9e" width="270"/>
 </p>
 
 ---
@@ -60,10 +60,10 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 👤 Profil
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dea34472-6ff3-4386-97e1-6064a35480e8" width="270"/>
-  <img src="https://github.com/user-attachments/assets/428e5484-d0b4-46e8-8cd5-af803754e9d1" width="270"/>
-  <img src="https://github.com/user-attachments/assets/cab282d9-cfda-4ff8-917d-69d1e9316535" width="270"/>
-  <img src="https://github.com/user-attachments/assets/f07437f4-198b-4db3-ab69-9269f61a8822" width="270"/>
+  <img src="https://github.com/user-attachments/assets/dea34472-6ff3-4386-97e1-6064a35480e8" width="200"/>
+  <img src="https://github.com/user-attachments/assets/428e5484-d0b4-46e8-8cd5-af803754e9d1" width="200"/>
+  <img src="https://github.com/user-attachments/assets/cab282d9-cfda-4ff8-917d-69d1e9316535" width="200"/>
+  <img src="https://github.com/user-attachments/assets/f07437f4-198b-4db3-ab69-9269f61a8822" width="200"/>
 </p>
 
 ---
@@ -124,10 +124,10 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 👨‍💼 Admin Paneli
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/589dfe65-93a1-46f4-953e-4580ce3bdac2" width="270"/>
-  <img src="https://github.com/user-attachments/assets/cb23650c-4c07-45f4-8197-434280cd7c65" width="270"/>
-  <img src="https://github.com/user-attachments/assets/ed5378ee-71e6-4483-993b-dcf63da59868" width="270"/>
-  <img src="https://github.com/user-attachments/assets/103d16a2-1cfd-4f85-90ee-99910d9d803d" width="270"/>
+  <img src="https://github.com/user-attachments/assets/589dfe65-93a1-46f4-953e-4580ce3bdac2" width="200"/>
+  <img src="https://github.com/user-attachments/assets/cb23650c-4c07-45f4-8197-434280cd7c65" width="200"/>
+  <img src="https://github.com/user-attachments/assets/ed5378ee-71e6-4483-993b-dcf63da59868" width="200"/>
+  <img src="https://github.com/user-attachments/assets/103d16a2-1cfd-4f85-90ee-99910d9d803d" width="200"/>
 </p>
 
 ---
