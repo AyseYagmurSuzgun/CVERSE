@@ -106,7 +106,7 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### ⚙️ Ayarlar
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3c74f08a-69ae-4c06-946e-4865a63f52a1" width="200"/>
+  <img src="https://github.com/user-attachments/assets/146f140c-43da-4bce-9e50-0b68513fc01d" width="200"/>
   <img src="https://github.com/user-attachments/assets/a5483095-278e-47f2-92bd-80eed1efb5f5" width="200"/>
 </p>
 
