@@ -51,8 +51,8 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 🏠 Giriş
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/34fe1463-7963-4ed9-bfbc-4f7dbadb3361" width="270"/>
-  <img src="https://github.com/user-attachments/assets/774bf584-c142-4135-8213-3aa123faca9e" width="270"/>
+  <img src="https://github.com/user-attachments/assets/34fe1463-7963-4ed9-bfbc-4f7dbadb3361" width="200"/>
+  <img src="https://github.com/user-attachments/assets/774bf584-c142-4135-8213-3aa123faca9e" width="200"/>
 </p>
 
 ---
@@ -71,7 +71,7 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 🔍 Keşfet
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a03bf821-e8f8-43a2-b508-596391d55375" width="270"/>
+  <img src="https://github.com/user-attachments/assets/a03bf821-e8f8-43a2-b508-596391d55375" width="200"/>
 </p>
 
 ---
@@ -79,7 +79,7 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 💬 Mesajlaşma
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e904aa59-5a1f-413d-8224-902ee603dd16" width="270"/>
+  <img src="https://github.com/user-attachments/assets/e904aa59-5a1f-413d-8224-902ee603dd16" width="200"/>
 </p>
 
 ---
@@ -87,8 +87,8 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 💼 İş İlanları
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e42e36a1-836a-4ba2-8211-9d74c40f2015" width="270"/>
-  <img src="https://github.com/user-attachments/assets/9483dfee-7d20-40b1-9031-f31019c79e84" width="270"/>
+  <img src="https://github.com/user-attachments/assets/e42e36a1-836a-4ba2-8211-9d74c40f2015" width="200"/>
+  <img src="https://github.com/user-attachments/assets/9483dfee-7d20-40b1-9031-f31019c79e84" width="200"/>
 </p>
 
 ---
@@ -96,9 +96,9 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 🧠 CV Analizi
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9c33b66b-338a-4b12-b434-ba19ad46cde4" width="270"/>
-  <img src="https://github.com/user-attachments/assets/2c5299f2-19af-4c7d-981a-95bc97bb4e22" width="270"/>
-  <img src="https://github.com/user-attachments/assets/6d668b1e-e694-49a8-895d-e21ce8295ae6" width="270"/>
+  <img src="https://github.com/user-attachments/assets/9c33b66b-338a-4b12-b434-ba19ad46cde4" width="200"/>
+  <img src="https://github.com/user-attachments/assets/2c5299f2-19af-4c7d-981a-95bc97bb4e22" width="200"/>
+  <img src="https://github.com/user-attachments/assets/6d668b1e-e694-49a8-895d-e21ce8295ae6" width="200"/>
 </p>
 
 ---
@@ -106,8 +106,8 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### ⚙️ Ayarlar
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3c74f08a-69ae-4c06-946e-4865a63f52a1" width="270"/>
-  <img src="https://github.com/user-attachments/assets/a5483095-278e-47f2-92bd-80eed1efb5f5" width="270"/>
+  <img src="https://github.com/user-attachments/assets/3c74f08a-69ae-4c06-946e-4865a63f52a1" width="200"/>
+  <img src="https://github.com/user-attachments/assets/a5483095-278e-47f2-92bd-80eed1efb5f5" width="200"/>
 </p>
 
 ---
@@ -115,8 +115,8 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 🎮 Oyun Alanı
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/102e9563-83a2-4a47-8751-7aa80034a0c2" width="270"/>
-  <img src="https://github.com/user-attachments/assets/a4a1557c-09b0-48ae-9c20-9fa51899ab65" width="270"/>
+  <img src="https://github.com/user-attachments/assets/102e9563-83a2-4a47-8751-7aa80034a0c2" width="200"/>
+  <img src="https://github.com/user-attachments/assets/a4a1557c-09b0-48ae-9c20-9fa51899ab65" width="200"/>
 </p>
 
 ---
@@ -135,8 +135,8 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### ℹ️ Hakkında
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9280e306-2fc0-4245-9f4d-945d05d23dcd" width="270"/>
-  <img src="https://github.com/user-attachments/assets/b0499927-5a30-4aac-a6b5-dbb50b70944a" width="270"/>
+  <img src="https://github.com/user-attachments/assets/9280e306-2fc0-4245-9f4d-945d05d23dcd" width="200"/>
+  <img src="https://github.com/user-attachments/assets/b0499927-5a30-4aac-a6b5-dbb50b70944a" width="200"/>
 </p>
 
 ---
@@ -144,7 +144,7 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 ### 📞 İletişim
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/875bc629-507c-4240-a417-58172bf4144e" width="270"/>
+  <img src="https://github.com/user-attachments/assets/875bc629-507c-4240-a417-58172bf4144e" width="200"/>
 </p>
 
 ---
