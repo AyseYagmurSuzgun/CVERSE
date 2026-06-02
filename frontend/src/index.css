@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Core Brand Colors */
+  --primary: #3498DB;
+  --primary-light: #5DADE2;
+  --primary-dark: #2980B9;
+  
+  --secondary: #85C1E9;
+  --secondary-light: #AED6F1;
+  --secondary-dark: #5DADE2;
+
+  /* App Surfaces - Light Mode (Pure White zemin) */
+  --bg-app-gradient: #FFFFFF;
+  --bg-app: #FFFFFF;
+  --text-primary: #1E293B;
+  --text-secondary: #5D6D7E;
+  --border-soft: rgba(15, 32, 67, 0.12);
+
+  /* Card Variants - Light Mode (Softened to a premium, calmer, semi-transparent deep midnight blue) */
+  --bg-card-default: rgba(15, 32, 67, 0.06);      
+  --bg-card-primary: rgba(15, 32, 67, 0.06);      
+  --bg-card-secondary: rgba(15, 32, 67, 0.06);    
+  --bg-card-warning: rgba(15, 32, 67, 0.06);      
+  --bg-card-success: rgba(15, 32, 67, 0.06);      
+  
+  --shadow-premium: 0 10px 25px -5px rgba(15, 32, 67, 0.04);
+  --shadow-premium-hover: 0 15px 30px -5px rgba(15, 32, 67, 0.06);
+  --glass-bg: rgba(15, 32, 67, 0.09);
+  --glass-border: rgba(15, 32, 67, 0.16);
+}
+
+.dark {
+  /* Core Brand Colors (Dark mode optimized) */
+  --primary: #5DADE2;
+  --primary-light: #85C1E9;
+  --primary-dark: #3498DB;
+
+  --secondary: #3498DB;
+  --secondary-light: #5DADE2;
+  --secondary-dark: #2980B9;
+
+  /* App Surfaces - Dark Mode (#0B132B) */
+  --bg-app-gradient: #0B132B;
+  --bg-app: #0B132B;
+  --text-primary: #FFFFFF;
+  --text-secondary: #94A3B8;
+  --border-soft: rgba(58, 80, 107, 0.45);
+
+  /* Card Variants - Dark Mode (#1C2541) */
+  --bg-card-default: #1C2541;      
+  --bg-card-primary: #1C2541;      
+  --bg-card-secondary: #1C2541;    
+  --bg-card-warning: #1C2541;      
+  --bg-card-success: #1C2541;      
+  
+  --shadow-premium: 0 15px 30px -10px rgba(5, 9, 20, 0.4);
+  --shadow-premium-hover: 0 25px 45px -10px rgba(5, 9, 20, 0.6);
+  --glass-bg: rgba(28, 37, 65, 0.85);
+  --glass-border: rgba(58, 80, 107, 0.45);
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  
+  --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
+  --color-secondary-dark: var(--secondary-dark);
+
+  /* Semantic tokens linked to themes */
+  --color-bg-app: var(--bg-app);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-border-soft: var(--border-soft);
+
+  /* Dynamic Premium Card Backgrounds */
+  --color-card: var(--bg-card-default);
+  --color-card-primary: var(--bg-card-primary);
+  --color-card-secondary: var(--bg-card-secondary);
+  --color-card-warning: var(--bg-card-warning);
+  --color-card-success: var(--bg-card-success);
+
+  --font-sans: "Plus Jakarta Sans", "Inter", "sans-serif";
+
+  --shadow-premium: var(--shadow-premium);
+  --shadow-premium-hover: var(--shadow-premium-hover);
+}
+
+@layer base {
+  body {
+    @apply text-text-primary font-sans antialiased overflow-x-hidden;
+    background: var(--bg-app-gradient);
+    min-height: 100vh;
+  }
+
+  /* Force background styling to prevent plain whites from bleeding */
+  html {
+    background-color: var(--bg-app);
+  }
+
+  /* Clean browser input forms globally */
+  input, textarea, select {
+    @apply bg-bg-app border border-border-soft text-text-primary rounded-xl px-4 py-3 text-sm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+}
+
+/* Glassmorphism Classes */
+.glassmorphism {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+}
+
+/* Hover effects for Cards */
+.card-hover-effect {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-premium-hover);
+  border-color: var(--primary);
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}
+
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary) 50%, var(--primary-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Auth Glassmorphism Styling */
+.auth-glassmorphism {
+  background: rgba(164, 209, 242, 0.25) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1.5px solid rgba(52, 152, 219, 0.3) !important;
+  box-shadow: var(--shadow-premium);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .auth-glassmorphism {
+  background: rgba(11, 19, 41, 0.6) !important;
+  border-color: rgba(52, 152, 219, 0.2) !important;
+}
+
+.auth-glassmorphism:hover {
+  background: rgba(164, 209, 242, 0.3) !important;
+  transform: translateY(-2px);
+}
+
+.dark .auth-glassmorphism:hover {
+  background: rgba(11, 19, 41, 0.65) !important;
+}
+
+/* Premium Typography Title */
+.gradient-title-cool {
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary) 60%, var(--primary-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-soft);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-light);
+}
+
+/* Shimmer Skeletal Loader */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-bg {
+  background: linear-gradient(90deg, var(--bg-card-primary) 25%, var(--border-soft) 50%, var(--bg-card-primary) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Custom Sidebar Gradient override (navy-gradient as requested by user) */
+html.dark aside {
+  background: linear-gradient(to bottom, #0B2545, #10315B, #18447E) !important;
+  border-color: rgba(7, 32, 67, 0.4) !important;
+}
+
+/* Backward compatibility helpers to avoid breaking any generic Tailwind bg-white class and keep theme consistency */
+html.dark .bg-white,
+html.dark .bg-slate-50,
+html.dark .bg-gray-50,
+html.dark .bg-sky-50,
+html.dark .bg-sky-50\/60,
+html.dark .bg-sky-50\/80,
+html.dark .bg-sky-50\/90,
+html.dark .bg-blue-50\/90,
+html.dark .bg-\[\#F4F9FD\],
+html.dark .bg-slate-100,
+html.dark .bg-slate-200,
+html.dark .bg-gray-100,
+html.dark .bg-sky-100,
+html.dark .bg-sky-100\/60,
+html.dark .bg-sky-100\/70,
+html.dark .bg-sky-200,
+html.dark .bg-blue-100\/30,
+html.dark .bg-blue-100\/80,
+html.dark .bg-blue-100\/90,
+html.dark .bg-blue-100\/95,
+html.dark .bg-blue-200,
+html.dark .bg-blue-200\/50,
+html.dark .bg-purple-200,
+html.dark .bg-app,
+html.dark .bg-app\/80,
+html.dark .bg-app\/85 {
+  background-color: var(--bg-card-default) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-soft) !important;
+}
+
+html.dark .text-slate-800,
+html.dark .text-slate-900,
+html.dark .text-gray-900 {
+  color: var(--text-primary) !important;
+}
+
+html.dark .text-slate-500,
+html.dark .text-slate-600,
+html.dark .text-gray-500 {
+  color: var(--text-secondary) !important;
+}
+
+html.dark .border-slate-100,
+html.dark .border-gray-100,
+html.dark .border-slate-200,
+html.dark .border-gray-200,
+html.dark .border-sky-200,
+html.dark .border-blue-200,
+html.dark .border-sky-200\/50,
+html.dark .border-blue-200\/50,
+html.dark .border-sky-300,
+html.dark .border-blue-300 {
+  border-color: var(--border-soft) !important;
+}
+
+/* Prevent big titles from turning white in dark mode, keeping them in vibrant #6bc5d9 brand color */
+html.dark h1,
+html.dark h2.tracking-wider,
+html.dark h2.uppercase,
+html.dark .text-3xl.font-black,
+html.dark .text-2xl.font-black,
+html.dark .gradient-title-cool,
+html.dark .text-gradient {
+  color: #6bc5d9 !important;
+  background: none !important;
+  -webkit-text-fill-color: #6bc5d9 !important;
+}
+
+/* Light mode compatibility helpers to ensure plain white cards turn into #6bc5d9 colored cards */
+html:not(.dark) .bg-white,
+html:not(.dark) .bg-slate-50,
+html:not(.dark) .bg-gray-50,
+html:not(.dark) .bg-sky-50,
+html:not(.dark) .bg-sky-50\/60,
+html:not(.dark) .bg-sky-50\/80,
+html:not(.dark) .bg-sky-50\/90,
+html:not(.dark) .bg-blue-50\/90,
+html:not(.dark) .bg-\[\#F4F9FD\],
+html:not(.dark) .bg-slate-100,
+html:not(.dark) .bg-slate-200,
+html:not(.dark) .bg-gray-100,
+html:not(.dark) .bg-sky-100,
+html:not(.dark) .bg-sky-100\/60,
+html:not(.dark) .bg-sky-100\/70,
+html:not(.dark) .bg-sky-200,
+html:not(.dark) .bg-blue-100\/30,
+html:not(.dark) .bg-blue-100\/80,
+html:not(.dark) .bg-blue-100\/90,
+html:not(.dark) .bg-blue-100\/95,
+html:not(.dark) .bg-blue-200,
+html:not(.dark) .bg-blue-200\/50,
+html:not(.dark) .bg-purple-200,
+html:not(.dark) .bg-app,
+html:not(.dark) .bg-app\/80,
+html:not(.dark) .bg-app\/85 {
+  background-color: var(--bg-card-default) !important; /* Mapped to #6bc5d9 */
+  color: var(--text-primary) !important;
+  border-color: var(--border-soft) !important;
+}
+

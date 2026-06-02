@@ -1,0 +1,6 @@
+@Cverse.API_HostAddress = http://localhost:5145
+
+GET {{Cverse.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

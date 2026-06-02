@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: cverse-postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-1453}
+      - POSTGRES_DB=cverse_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cverse-backend
+    restart: always
+    ports:
+      - "5145:5145"
+    environment:
+      - DB_CONNECTION_STRING=Host=db;Port=5432;Database=cverse_db;Username=postgres;Password=${POSTGRES_PASSWORD:-1453}
+      - ASPNETCORE_ENVIRONMENT=Production
+      - Gemini__ApiKey=${GEMINI_API_KEY:-YOUR_GEMINI_API_KEY}
+    depends_on:
+      - db
+    volumes:
+      - cverse_uploads:/app/uploads
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cverse-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+    driver: local
+  cverse_uploads:
+    driver: local

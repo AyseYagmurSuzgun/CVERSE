@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5DADE2" />
+      <stop offset="100%" stop-color="#85C1E9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Dış Kesikli Astronomik/Evren Yörüngesi -->
+  <circle cx="50" cy="50" r="42" stroke="url(#logo-grad)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 16" opacity="0.75" />
+  
+  <!-- CVERSE C-Harfi Kabuğu -->
+  <path d="M35 30C26 35 24 46 27 55C30 64 39 70 50 70C62 70 70 60 70 48" stroke="url(#logo-grad)" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Pusula / Kadran V-Harfi Görünümü -->
+  <path d="M50 22L50 50L68 50" stroke="url(#logo-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Merkez Çekirdek Bağlantısı -->
+  <circle cx="50" cy="50" r="5.5" fill="#2C3E50" />
+</svg>

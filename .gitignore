@@ -1,0 +1,71 @@
+Remove-Item -Recurve -Force .git# =========================================================================
+# CVERSE GITIGNORE CONFIGURATION (SECURITY & ENVIRONMENT SHIELDS)
+# =========================================================================
+
+# 1. Environment & API Key Files (CRITICAL FOR SECURITY)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# 2. Frontend Build & Dependency Directories
+node_modules/
+dist/
+dist-ssr/
+*.local
+.yarn/
+.pnpm-store/
+.npm/
+.vite/
+.parcel-cache/
+.eslintcache
+
+# 3. .NET / C# Build Outputs & Temporary Files
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Rr]eleasePS/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# 4. Entity Framework & Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# 5. IDE, Editors, and OS Files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 6. Uploads & Temporary Local User Files
+backend/Cverse.API/uploads/*
+!backend/Cverse.API/uploads/.gitkeep
