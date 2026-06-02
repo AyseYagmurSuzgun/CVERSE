@@ -52,6 +52,7 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/34fe1463-7963-4ed9-bfbc-4f7dbadb3361" width="270"/>
+  <img width="1919" height="1030" alt="Ekran görüntüsü 2026-05-22 223056" src="https://github.com/user-attachments/assets/774bf584-c142-4135-8213-3aa123faca9e" />
 </p>
 
 ---
@@ -125,9 +126,6 @@ Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/589dfe65-93a1-46f4-953e-4580ce3bdac2" width="270"/>
   <img src="https://github.com/user-attachments/assets/cb23650c-4c07-45f4-8197-434280cd7c65" width="270"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/ed5378ee-71e6-4483-993b-dcf63da59868" width="270"/>
   <img src="https://github.com/user-attachments/assets/103d16a2-1cfd-4f85-90ee-99910d9d803d" width="270"/>
 </p>
