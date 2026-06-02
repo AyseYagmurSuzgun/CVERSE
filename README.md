@@ -2,7 +2,7 @@
 
 CVERSE, modern yazılım mühendisleri ve teknoloji profesyonelleri için tasarlanmış; gerçek zamanlı akış (feed), mesajlaşma, iş ilanları, mini oyunlar ve yapay zeka destekli CV analizi sunan premium bir kariyer platformudur.
 
-Bu proje, backend tarafında **Clean Architecture** prensiplerine uygun **ASP.NET Core 9.0 Web API** ve veri tabanı tarafında **PostgreSQL** kullanırken, frontend tarafında son derece şık, göz alıcı ve parlama yapmayan premium bir arayüz sunan **Vite + React** ve **Tailwind CSS v4** teknolojilerini kullanmaktadır.
+Bu proje, backend tarafında **Clean Architecture** prensiplerine uygun **ASP.NET Core 8.0 Web API** ve veri tabanı tarafında **PostgreSQL** kullanırken, frontend tarafında son derece şık, göz alıcı ve parlama yapmayan premium bir arayüz sunan **Vite + React** ve **Tailwind CSS v4** teknolojilerini kullanmaktadır.
 
 ---
 
@@ -57,12 +57,35 @@ Aşağıda projenin bazı arayüz ekranları yer almaktadır:
 
 - 🎮 Oyun
 <p align="center"> <img src="https://github.com/user-attachments/assets/102e9563-83a2-4a47-8751-7aa80034a0c2" width="250"/> <img src="https://github.com/user-attachments/assets/a4a1557c-09b0-48ae-9c20-9fa51899ab65" width="250"/> </p>
+
+---
+
+- 👨‍💼 Admin Paneli
+<img width="1904" height="1026" alt="Ekran görüntüsü 2026-06-02 152554" src="https://github.com/user-attachments/assets/589dfe65-93a1-46f4-953e-4580ce3bdac2" />
+<img width="1911" height="1029" alt="Ekran görüntüsü 2026-06-02 152620" src="https://github.com/user-attachments/assets/cb23650c-4c07-45f4-8197-434280cd7c65" />
+<img width="1907" height="1027" alt="Ekran görüntüsü 2026-06-02 152704" src="https://github.com/user-attachments/assets/ed5378ee-71e6-4483-993b-dcf63da59868" />
+<img width="1910" height="1026" alt="Ekran görüntüsü 2026-06-02 152503" src="https://github.com/user-attachments/assets/103d16a2-1cfd-4f85-90ee-99910d9d803d" />
+
+
+---
+
+- ℹ️ Hakkında
+<img width="1895" height="1033" alt="Ekran görüntüsü 2026-06-02 152340" src="https://github.com/user-attachments/assets/9280e306-2fc0-4245-9f4d-945d05d23dcd" />
+<img width="1905" height="1030" alt="Ekran görüntüsü 2026-06-02 152323" src="https://github.com/user-attachments/assets/b0499927-5a30-4aac-a6b5-dbb50b70944a" />
+
+
+---
+
+- 📞 İletişim
+<img width="1904" height="1029" alt="Ekran görüntüsü 2026-06-02 152403" src="https://github.com/user-attachments/assets/875bc629-507c-4240-a417-58172bf4144e" />
+
+
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
 ### Backend
-- ASP.NET Core 9 Web API
+- ASP.NET Core 8 Web API
 - Entity Framework Core
 - PostgreSQL
 - SignalR (real-time communication)
